@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    background-color: rgba(106, 104, 108, 0.35);
+    color: white;
+    border-radius: 30px;
+    width: 100px;
+    height: 80px;
+    font-size: 30px;
+    border: none;
+}
+
+img{
+   height: 600px;
+    width: 800px;
+    object-fit: cover;
+}
+
